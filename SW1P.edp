@@ -14,10 +14,10 @@ real xradius = 4.0; // horizontal axis of the particles
 real yradius = 2.0; // vertical axis of the particles
 real xshift = 0.0; // horizontal shift from the center of the cell
 real yshift = 0.0; // vertical shift form the center of the cell
-//real a0 = 89.0*pi/180.0; // Tilt angle of the ellipsoid measured from +Y axis.
-real a0;
-ifstream entrada("input.txt");
-entrada >> a0;
+real a0 = 123.0*pi/180.0; // Tilt angle of the ellipsoid measured from +Y axis.
+//real a0;
+//ifstream entrada("input.txt");
+//entrada >> a0;
 a0 = a0*pi/180.0; // Tilt angle of the ellipsoid measured from +Y axis.
 //a0 = 180.0*pi/180.0;
 real an= 0.0; // Auxiliar angle for the angle sweep function
